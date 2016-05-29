@@ -40,7 +40,7 @@ if (!empty($_SERVER['QUERY_STRING'])) {
 		$status = 200;
 	} else {
 		echo 0;
-		$status = 400;
+		$status = 404;
 	}
 }
 
